@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Showcase Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with theme toggle -->
+        <header class="header">
+            <h1 class="title">Product Showcase</h1>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="toggle-icon">🌙</span>
+            </button>
+        </header>
+
+        <!-- Product Gallery -->
+        <main class="gallery">
+            <div class="product-card" data-aos="fade-in">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop" alt="Premium Headphones" loading="lazy">
+                    <div class="card-overlay">
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Premium Headphones</h3>
+                    <p class="card-description">High-quality wireless headphones with noise cancellation and premium sound quality.</p>
+                    <div class="card-price">$299.99</div>
+                    <div class="card-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">(4.8/5)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-aos="fade-in">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop" alt="Smart Watch" loading="lazy">
+                    <div class="card-overlay">
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Smart Watch</h3>
+                    <p class="card-description">Advanced fitness tracking, heart rate monitoring, and smartphone connectivity in a sleek design.</p>
+                    <div class="card-price">$399.99</div>
+                    <div class="card-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-text">(4.6/5)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card" data-aos="fade-in">
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=300&fit=crop" alt="Wireless Speaker" loading="lazy">
+                    <div class="card-overlay">
+                        <button class="view-btn">View Details</button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Wireless Speaker</h3>
+                    <p class="card-description">Portable Bluetooth speaker with 360-degree sound, waterproof design, and 12-hour battery life.</p>
+                    <div class="card-price">$149.99</div>
+                    <div class="card-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-text">(4.9/5)</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
